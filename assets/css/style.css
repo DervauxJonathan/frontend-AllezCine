@@ -1,22 +1,27 @@
 .container-fluid {
   padding: 0px; }
 
-#carousel1 img {
-  width: 100%;
-  height: auto; }
-
-.carousel {
-  position: relative;
-  width: 100%;
-  height: auto; }
+#carousel1 {
+  z-index: -99; }
+  #carousel1 img {
+    width: 100%;
+    height: auto; }
 
 .logintitrecine {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   position: relative;
   width: 100%;
   height: auto;
-  background-color: #FE4240; }
+  background-color: #FE4240;
+  color: white; }
 
-.carousel-item {
-  height: 50%; }
+.principaltitrecine {
+  position: absolute;
+  z-index: 0; }
+
+.fa {
+  color: white; }
 
 /*# sourceMappingURL=style.css.map */

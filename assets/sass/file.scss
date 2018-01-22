@@ -3,9 +3,8 @@
   padding:0px;
 }
 
-
 #carousel1 {
-  // z-index: -99;
+  z-index: -99;
 
   & img {
     width: 100%;
@@ -14,20 +13,22 @@
 
 }
 
-.carousel {
-  position: relative;
-  width: 100%;
-  height: auto;
-}
-
 .logintitrecine {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
   position:relative;
   width:100%;
   height: auto;
   background-color: #FE4240;
+  color: white;
 }
 
+.principaltitrecine{
+  position:absolute;
+  z-index: 0;
+}
 
-.carousel-item {
-  height:50%;
+.fa {
+  color: white;
 }
