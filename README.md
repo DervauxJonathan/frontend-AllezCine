@@ -1,18 +1,18 @@
 # frontend-AllezCine
 ====================
 
-##Historique
+## Historique
 ------------
 
 22 Janvier 2018 : Début du projet
 
-##Contributeurs
+## Contributeurs
 ---------------
 
     Jonathan Dervaux
     Olivier NSHIMIYUMUKIZA
 
-##La conception
+## La conception
 ---------------
 
 Nous avons reproduit un layout via Bootstrap et modifier certain style avec du css.
