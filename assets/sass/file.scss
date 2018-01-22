@@ -1,0 +1,37 @@
+
+.container-fluid {
+width: 100%;
+height:650px;
+border:1px solid red;
+}
+
+.head{
+  position: relative;
+  border:1px solid blue;
+  width:100%;
+  height:auto;
+}
+
+#carousel1 {
+  z-index: -99;
+
+  & img {
+    width: 100%;
+    height:600px;
+  }
+
+}
+
+.cine {
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.titrecine {
+  position:relative;
+  width:100%;
+  height: auto;
+  background-color: #FE4240;
+
+}
