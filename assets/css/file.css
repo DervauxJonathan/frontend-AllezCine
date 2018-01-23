@@ -1,3 +1,39 @@
+.container-fluid {
+  padding: 0px; }
 
+#carousel1 {
+  z-index: 0; }
+  #carousel1 img {
+    width: 100%;
+    height: auto; }
+
+.logintitrecine p {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #FE4240;
+  color: white; }
+
+.principaltitrecine {
+  position: absolute;
+  z-index: 0; }
+
+.fa {
+  color: white; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.imagescarousel {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.boutonNoir {
+  background-color: black;
+  color: white; }
 
 /*# sourceMappingURL=file.css.map */
