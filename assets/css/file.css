@@ -1,13 +1,34 @@
 .container-fluid {
   padding: 0px; }
 
-#carousel1 {
-  z-index: 0; }
-  #carousel1 img {
-    width: 100%;
-    height: auto; }
+.principaltitrecine {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 40px;
+  font-weight: bold; }
+  .principaltitrecine .allez {
+    color: #FE4240; }
+  .principaltitrecine .cine {
+    color: white; }
 
-.logintitrecine p {
+#carouselimg {
+  z-index: 1; }
+
+.carousel-item img {
+  width: 100% !important;
+  height: auto !important;
+  margin: 6px; }
+
+.menutitrecine {
+  display: flex;
+  flex-direction: row; }
+
+#carousel1 img {
+  width: 100%;
+  height: auto; }
+
+.logintitrecine {
   padding-left: 30px;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -16,10 +37,18 @@
   height: auto;
   background-color: #FE4240;
   color: white; }
+  .logintitrecine button {
+    background-color: black;
+    color: white;
+    border: none; }
 
-.principaltitrecine {
-  position: absolute;
-  z-index: 0; }
+#allezcine {
+  position: relative;
+  width: 100%;
+  height: auto;
+  margin-top: -55%;
+  margin-left: 0;
+  margin-right: 0; }
 
 .fa {
   color: white; }
@@ -35,5 +64,24 @@
 .boutonNoir {
   background-color: black;
   color: white; }
+
+.stylish-input-group .input-group-addon {
+  background: white !important; }
+
+.stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border-color: #ccc; }
+
+.stylish-input-group button {
+  border: 0;
+  background: transparent; }
+
+.featuredmoviesbutton button {
+  background-color: #FE4140;
+  color: white;
+  border: none;
+  padding: 1%;
+  font-weight: bold; }
 
 /*# sourceMappingURL=file.css.map */
