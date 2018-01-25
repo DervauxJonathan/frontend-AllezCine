@@ -6,9 +6,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>AllezCine JD Olivier</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 <!-- css -->
   <link rel="stylesheet" type="text/css" href="assets/css/file.css">
   <!-- font awesome -->
@@ -228,7 +225,7 @@
      </div>
 
       <!-- place pour featured movies -->
-        <div class="container">
+        <div class="container" id="filmss">
           <h2> FEATURED MOVIES </h2>
           <div class="row">
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredmoviespagination">
@@ -327,12 +324,12 @@
 
             <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredmoviesbutton">
               <!-- place pour bouton plus/moins de films-->
-              <button> PLUS DE FILMS </button>
+              <button id="films" value="PLUS DE FILMS">PLUS DE FILMS</button>
             </div>
          </div>
        </div>
 
-       <div class="container">
+       <div class="container" id="seriess">
         <!-- <h2> place pour titre featuredseries</h2> -->
         <h2> FEATURED SERIES TV </h2>
          <div class="row">
@@ -373,7 +370,7 @@
               <!-- debut carousel 2 -->
               <div class="row">
                   <!-- debut caroussel1 -->
-                  <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12" id="topmoviescaroussel">
                       <div id="carouselExampleSlidesOnly" class="carousel slide">
                         <div class="carousel-inner">
                           <div class="carousel-item active" >
@@ -439,7 +436,7 @@
            </div>
            <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredseriesbutton">
              <!-- place pour bouton plus/moins de series-->
-             <button> PLUS DE FILMS </button>
+             <button id="series" value="PLUS DE SERIES">PLUS DE SERIES</button>
            </div>
         </div>
       </div>
@@ -559,96 +556,137 @@
     </section>
 
     <footer>
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-            <!-- subscribe to us  -->
-          <h3> SUBSCRIBE TO US</h3>
-          <input type="text" id="email"  style="width:20%" name="lastname" placeholder="Enter your email">
-          <input type="submit" id="submit" value="SUBSCRIBE">
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-12">
+<!-- subscribe to us -->
+<h3> SUBSCRIBE TO US</h3>
+<input type="text" id="email" style="width:20%" name="lastname" placeholder="Enter your email">
+<input type="submit" id="submit" value="SUBSCRIBE">
 
-          </div>
-        </div>
-
-        <div class="row foot">
-          <div class="col-lg-2 col-md-4 col-sm-12 col-12">
-            <!-- RELEASE -->
-            <h5> RELEASE </h5>
-            2016 <br />
-            2015 <br />
-            2014 <br />
-            2013 <br />
-            2012 <br />
-            2011
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-12 col-12">
-            <!-- MOVIES -->
-            <h5> MOVIES </h5>
-            ADVENTURE <br />
-            COMEDY <br />
-            FANTASY <br />
-            ACTION <br />
-            MOVIES <br />
-            HORROR
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-12 col-12">
-            <!-- REVIEW MOVIES -->
-            <h5>REVIEW MOVIES </h5>
-            <a href="comedy"> Comedy </a>
-            <a href="comedy"> Horror </a>
-            <a href="comedy"> Historical </a>
-            <a href="comedy"> Romantic </a>
-            <br />
-            <a href="comedy"> love </a>
-            <a href="comedy"> Action </a>
-            <a href="comedy"> Reviews </a>
-            <a href="comedy"> Comedy </a>
-            <a href="comedy"> Horror </a>
-            <br />
-            <a href="comedy"> Historical </a>
-            <a href="comedy"> Romantic </a>
-            <a href="comedy"> Love </a>
-            <a href="comedy"> Comedy </a>
-            <br />
-            <a href="comedy"> Horror </a>
-            <a href="comedy"> Historical </a>
-          </div>
-          <div class="col-lg-2 col-md-4 col-sm-12 col-12">
-            <!-- LATEST MOVIES -->
-            <h5> LATEST MOVIES</h5>
-            <div> <img src="assets/img/minifooter/a.jpg" rel=""> Eveniet Ut Molesti </div>
-            <div> <img src="assets/img/minifooter/b.jpg" rel=""> Earum Rerum Tenet</div>
-            <div> <img src="assets/img/minifooter/c.jpg" rel=""> Eveniet Ut Molesti  </div>
-            <div> <img src="assets/img/minifooter/d.jpg" rel=""> Earum Rerum Tenet </div>
-          </div>
-          <div class="col-lg-3 col-md-4 col-sm-12 col-12">
-            <!-- ALLESCINE -->
-            <h4>ALLEZCINE </h4>
-          </div>
-        </div>
-
-        <div class="row">
-          <!-- BLANC SPACE -->
-        </div>
-
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-            <!-- connect us -->
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-            <!-- les icones awesome -->
-          </div>
-        </div>
-
-      </div>
-    </footer>
+    </div>
   </div>
+
+  <div class="row foot">
+    <div class="col-lg-2 col-md-4 col-sm-12 col-12">
+      <!-- RELEASE -->
+      <h5> RELEASE </h5> 2016 <br /> 2015 <br /> 2014 <br /> 2013 <br /> 2012 <br /> 2011
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 col-12">
+      <!-- MOVIES -->
+      <h5> MOVIES </h5> ADVENTURE <br /> COMEDY <br /> FANTASY <br /> ACTION <br /> MOVIES <br /> HORROR
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+      <!-- REVIEW MOVIES -->
+      <h5>REVIEW MOVIES </h5>
+      <a href="comedy"> Comedy </a>
+      <a href="comedy"> Horror </a>
+      <a href="comedy"> Historical </a>
+      <a href="comedy"> Romantic </a>
+      <br />
+      <a href="comedy"> love </a>
+      <a href="comedy"> Action </a>
+      <a href="comedy"> Reviews </a>
+      <a href="comedy"> Comedy </a>
+      <a href="comedy"> Horror </a>
+      <br />
+      <a href="comedy"> Historical </a>
+      <a href="comedy"> Romantic </a>
+      <a href="comedy"> Love </a>
+      <a href="comedy"> Comedy </a>
+      <br />
+      <a href="comedy"> Horror </a>
+      <a href="comedy"> Historical </a>
+    </div>
+    <div class="col-lg-2 col-md-4 col-sm-12 col-12">
+      <!-- LATEST MOVIES -->
+      <h5> LATEST MOVIES</h5>
+      <div class="latestmovies"> <img src="assets/img/minifooter/a.jpg" rel=""> <span class="commentaires">  Eveniet Ut Molesti </span> </div>
+      <div class="latestmovies"> <img src="assets/img/minifooter/b.jpg" rel=""> <span class="commentaires"> Earum Rerum Tenet </span> </div>
+      <div class="latestmovies"> <img src="assets/img/minifooter/c.jpg" rel=""> <span class="commentaires"> Eveniet Ut Molesti </span> </div>
+      <div class="latestmovies"> <img src="assets/img/minifooter/d.jpg" rel=""> <span class="commentaires"> Earum Rerum Tenet </span> </div>
+    </div>
+    <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+      <!-- ALLESCINE -->
+      <h5> <span class="red"> ALLEZ</span>CINE </h5>
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block" src="assets/img/footersliders/1.png" alt="First slide">
+            <img class="d-block" src="assets/img/footersliders/2.png" alt="First slide">
+            <img class="d-block" src="assets/img/footersliders/3.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block" src="assets/img/footersliders/4.png" alt="Second slide">
+            <img class="d-block" src="assets/img/footersliders/5.png" alt="First slide">
+            <img class="d-block" src="assets/img/footersliders/6.png" alt="First slide">
+          </div>
+          <div class="carousel-item">
+            <img class="d-block" src="assets/img/footersliders/7.jpg" alt="Third slide">
+            <img class="d-block" src="assets/img/footersliders/8.jpg" alt="First slide">
+            <img class="d-block" src="assets/img/footersliders/9.jpg" alt="First slide">
+          </div>
+        </div>
+        </div>
+        <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="d-block" src="assets/img/footersliders/1.png" alt="First slide">
+              <img class="d-block" src="assets/img/footersliders/2.png" alt="First slide">
+              <img class="d-block" src="assets/img/footersliders/3.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block" src="assets/img/footersliders/4.png" alt="Second slide">
+              <img class="d-block" src="assets/img/footersliders/5.png" alt="First slide">
+              <img class="d-block" src="assets/img/footersliders/6.png" alt="First slide">
+            </div>
+            <div class="carousel-item">
+              <img class="d-block" src="assets/img/footersliders/7.jpg" alt="Third slide">
+              <img class="d-block" src="assets/img/footersliders/8.jpg" alt="First slide">
+              <img class="d-block" src="assets/img/footersliders/9.jpg" alt="First slide">
+            </div>
+          </div>
+          </div>
+    </div>
+  </div>
+
+  <!-- div caché -->
+    <div class="row">
+       <div class="col-lg-12 co -12">
+         <h1 class="cache"> <p> JHLQDKFJKQSDLFKKSDFKSDKFKSDFGKSDFKSDFGHKLQSDFM <p> </h1>
+       </div>
+    </div>
+  <!-- fin du div caché -->
+
+  <div class="row reseausociaux">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+      <!-- connect us -->
+      <h3> CONNECT US </h3>
+
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+      <i class="fa fa-youtube" aria-hidden="true"></i>
+      <i class="fa fa-google-plus" aria-hidden="true"></i>
+
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+      <!-- les icones awesome -->
+    </div>
+  </div>
+
+</div>
+
+</footer>
+
+  <!-- </div> -->
 
   <div id="modallogin" class="modal fade" role="dialog">
 <div class="modal-dialog modal-sm">
-<button type="button" class="close" data-dismiss="modal">×</button>
+  <div class="modal-content">
 <form class="px-4 py-3">
 <div class="form-group">
 <label for="exampleDropdownFormEmail1">Adresse Mail</label>
@@ -669,6 +707,7 @@ Se souvenir de moi
 <div class="dropdown-divider"></div>
 <a class="dropdown-item" href="#">Nouveau ici? créer un compte</a>
 <a class="dropdown-item" href="#">Mot de passe oublier?</a>
+</div>
 </div>
 </div>
 <div id="modalregister" class="modal fade" role="dialog">
@@ -709,6 +748,38 @@ Conditions générales d'utilisation
 </div>
 </div>
 </div>
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+<script type="text/javascript">
+// var i = $(".filmbouton").attr("class");
+  $("#films").click(function() {
+    if ($(".filmbouton").hasClass("visible")) {
+      $(".filmbouton").addClass("invisible");
+      $(".filmbouton").removeClass("visible");
+      $("#films").html("Plus de films");
+      $('html, body').animate({ scrollTop: $("#filmss").offset().top }, 200);
+    } else {
+      $(".filmbouton").addClass("visible");
+      $(".filmbouton").removeClass("invisible");
+      $("#films").html("Moins de films");
+    };
+  });
 
+  $("#series").click(function() {
+    if ($(".seriebouton").hasClass("visible")) {
+      $(".seriebouton").addClass("invisible");
+      $(".seriebouton").removeClass("visible");
+      $("#series").html("Plus de series");
+      $('html, body').animate({ scrollTop: $("#seriess").offset().top }, 200);
+    } else {
+      $(".seriebouton").addClass("visible");
+      $(".seriebouton").removeClass("invisible");
+      $("#series").html("Moins de series");
+    };
+  });
+  //  console.log($(".filmbouton").hasClass("invisible"));
+
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 </body>
 </html>

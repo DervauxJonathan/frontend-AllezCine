@@ -138,20 +138,38 @@ input {
   background-color: #FF423E;
   color: white; }
 
-footer {
+  footer {
   background-color: black;
   color: white; }
 
-.foot {
-  font-size: 10px; }
+  .foot {
+  font-size: 11px; }
   .foot a {
-    font-weight: bold;
-    color: white;
-    margin: 2px;
-    padding: 2px;
-    padding-top: 1px;
-    padding-bottom: 1px;
-    background-color: #65645C; }
+  font-weight: bold;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #65645C; }
+  .foot h5 {
+  border-bottom: 1px solid #4d4d00;
+  padding-bottom: 15px; }
+
+  .latestmovies {
+  margin: 4px; }
+
+  .cache {
+  margin-top: 10px;
+  border-top: 1px solid #4d4d00;
+  border-bottom: 1px solid #4d4d00; }
+  .cache p {
+  opacity: 0; }
+
+  .reseausociaux .fa {
+  border-radius: 5px;
+  border: 2px solid #4C5155;
+  margin: 2px; }
 
     .visible {
       display: block
