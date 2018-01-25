@@ -92,19 +92,27 @@ h2 {
   border: 0;
   background: transparent; }
 
+.featuredseriesbutton {
+  display: flex;
+  align-items: center;
+}
 .featuredmoviesbutton button {
   background-color: #FE4140;
   color: white;
   border: none;
   padding: 1%;
-  font-weight: bold; }
+  font-weight: bold;
+  align-items: center;}
 
 .featuredseriesbutton button {
   background-color: #FE4140;
   color: white;
   border: none;
   padding: 1%;
-  font-weight: bold; }
+  font-weight: bold;
+  align-items: center;
+   }
+
 
 .shopmovies {
   position: relative;
@@ -144,5 +152,12 @@ footer {
     padding-top: 1px;
     padding-bottom: 1px;
     background-color: #65645C; }
+
+    .visible {
+      display: block
+    }
+    .invisible {
+      display: none;
+    }
 
 /*# sourceMappingURL=file.css.map */
