@@ -1,6 +1,14 @@
+
+
 .container-fluid {
   // position:absolute;
   padding:0px;
+  background-color: black;
+}
+
+h2 {
+  border-left: 5px solid #FE423E;
+  padding: 10px
 }
 
 .principaltitrecine {
@@ -9,16 +17,28 @@
   flex-wrap: nowrap;
   font-size: 40px;
   font-weight: bold;
-  & .allez {
+  color:white;
+}
+
+.red {
     color:#FE4240
   }
-  & .cine {
-    color: white;
+
+.onlinemovies {
+  color: blue;
+  button{
+    border-radius: none;
   }
 }
 
 #carouselimg {
+  position: relative;
+  opacity: 0.7;
   z-index: 1;
+}
+
+.carousel-indicators {
+  margin-top: -50px;
 }
 
 .carousel-item img{
@@ -62,12 +82,12 @@
 
 
 #allezcine{
-  position: relative;
+  position: absolute;
   width:100%;
   height: auto;
-  margin-top: -55%;
   margin-left: 0;
   margin-right: 0;
+  z-index: 2;
 }
 
 .fa {
@@ -115,5 +135,65 @@
   border: none;
   padding: 1%;
  font-weight: bold;
+  }
+}
+
+.featuredseriesbutton{
+  button {
+  background-color: #FE4140;
+  color:white;
+  border: none;
+  padding: 1%;
+ font-weight: bold;
+  }
+}
+
+.shopmovies {
+  position: relative;
+  width: 100%;
+  height:auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+}
+
+#fontawesome {
+
+li{
+  list-style: none;
+  display:inline;
+  margin: 1px;
+  padding: 2px;
+  background-color: black;
+  }
+
+}
+
+input {
+  border: 1px solid #BBB7B3;
+  border-radius:0;
+  margin:3px;
+}
+
+#submit{
+  background-color: #FF423E;
+  color: white;
+}
+
+footer {
+  background-color: black;
+  color: white
+}
+
+.foot {
+  font-size: 10px;
+  a {
+    font-weight: bold;
+    color: white;
+    margin:2px;
+    padding:2px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    background-color: #65645C;
   }
 }
