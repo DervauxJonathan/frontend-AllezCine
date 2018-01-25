@@ -102,7 +102,9 @@ h2 {
   border: none;
   padding: 1%;
   font-weight: bold;
-  align-items: center;}
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px}
 
 .featuredseriesbutton button {
   background-color: #FE4140;
@@ -111,6 +113,8 @@ h2 {
   padding: 1%;
   font-weight: bold;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px
    }
 
 
@@ -178,4 +182,12 @@ input {
       display: none;
     }
 
+    #flexfilm {
+      display: flex;
+      justify-content: center;
+    }
+    #flexseries {
+      display: flex;
+      justify-content: center;
+    }
 /*# sourceMappingURL=file.css.map */
