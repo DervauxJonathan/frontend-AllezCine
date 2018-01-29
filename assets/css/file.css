@@ -282,8 +282,7 @@ footer {
 .bordures {
   display: flex;
   justify-content: center;
-  margin-top: 1%;
-  border: 1px solid #4C5155; }
+  margin-top: 1%; }
 
 .card {
   border: 0px; }
