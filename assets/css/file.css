@@ -175,33 +175,37 @@ input {
   .cache p {
   opacity: 0; }
 
-  .reseausociaux {
-display: flex;
-flex-direction: column;
-justify-content: center;
+  .reseausociaux h3{
+text-align: center;
+margin-left: 40px;
   }
 
 
 
-  .reseausociaux li:nth-child(1) {
+  #footerawesome li:nth-child(1) {
   border: 1px solid #4C5155;
-  padding-left: 3px;
+  padding:3px;
+  padding-left: 8px;
   padding-right: 3px;
   margin: 2px; }
 
-  .reseausociaux li:nth-child(2) {
+  #footerawesome li:nth-child(2) {
+  padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
 
-  .reseausociaux li:nth-child(3) {
+  #footerawesome li:nth-child(3) {
+  padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
 
-  .reseausociaux li:nth-child(4) {
+  #footerawesome li:nth-child(4) {
+  padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
 
-  .reseausociaux li:nth-child(5) {
+  #footerawesome li:nth-child(5) {
+  padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
 
@@ -229,6 +233,12 @@ justify-content: center;
       list-style: none;
       display:inline;
     }
+
+    #footerawesome {
+      text-align: center;
+    }
+
+
 /*# sourceMappingURL=file.css.map */
 
 /* TO  BE DELETED*/
@@ -555,4 +565,6 @@ flex-direction: row;
   justify-content:space-around;
   margin-top: -20px;
 }
+
+
 /*# sourceMappingURL=file.css.map */
