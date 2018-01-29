@@ -33,7 +33,8 @@ h2 {
 .carousel-item img {
   width: 100% !important;
   height: auto !important;
-  margin: 6px; }
+  /*margin: 6px; */
+}
 
 .menutitrecine {
   display: flex;
@@ -488,7 +489,8 @@ footer {
   padding: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+      }
 
 .card-block {
   padding: 0px;
