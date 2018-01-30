@@ -217,7 +217,7 @@ margin-left: 40px;
       display: block
     }
     .invisible {
-      display: none;
+      display: none !important;
     }
 
     #flexfilm {

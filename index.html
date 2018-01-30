@@ -404,7 +404,7 @@
           <!-- place pour une pagination -->
           <ul class="pagination">
             <li class="page-item"><a class="page-link" href="#">All</a></li>
-            <li class="page-item"><a class="page-link" href="#">Actions</a></li>
+            <li class="page-item" id="Actionss"><a class="page-link" href="#">Actions</a></li>
             <li class="page-item"><a class="page-link" href="#">Policier</a></li>
           </ul>
         </div>
@@ -419,8 +419,7 @@
               <!-- debut caroussel1 AFFICHE MOVIES -->
               <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
                 <div class="row bordures2">
-
-                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel action">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -432,7 +431,7 @@
                             </div>
                             <div class="card-footer">
                               <div> 2016 </div>
-                              <div> Genre </div>
+                              <div> Action </div>
                             </div>
                           </div>
                         </div>
@@ -442,7 +441,7 @@
                   <!-- fin carousel 1-->
 
                   <!-- debut caroussel2 -->
-                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel policiers">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -453,7 +452,7 @@
                             </div>
                             <div class="card-footer">
                               <div> 2016 </div>
-                              <div> Genre </div>
+                              <div> policier </div>
                             </div>
                           </div>
                         </div>
@@ -554,7 +553,7 @@
               <!-- <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
                 <div class="row bordures2"> -->
 
-                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel policiers">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -566,7 +565,7 @@
                             </div>
                             <div class="card-footer">
                               <div> 2016 </div>
-                              <div> Genre </div>
+                              <div> policier </div>
                             </div>
                           </div>
                         </div>
@@ -576,7 +575,7 @@
                   <!-- fin carousel 1-->
 
                   <!-- debut caroussel2 -->
-                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                  <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel action">
                     <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="carousel-item active">
@@ -587,7 +586,7 @@
                             </div>
                             <div class="card-footer">
                               <div> 2016 </div>
-                              <div> Genre </div>
+                              <div> action </div>
                             </div>
                           </div>
                         </div>
@@ -687,8 +686,6 @@
               <div class="row">
                 <!-- debut caroussel1 -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
-                  <div class="row bordures2">
-
                     <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
                       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
@@ -1371,7 +1368,6 @@
                             </div>
                           </div>
                         </div>
-                      </div>
                     </div>
                   </div>
 
@@ -2118,6 +2114,12 @@ Conditions générales d'utilisation
       };
     };
     changeImg();
+
+    // filter films
+    $("#Actionss").click(function() {
+      // $(".topmoviescaroussel").hasClass("policiers");
+      $(".policiers").addClass("invisible");
+    });
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
