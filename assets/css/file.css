@@ -63,6 +63,16 @@ button{
   border: 0px;
 }
 /*FIN LATEST ONLINE MOVIES*/
+
+/*DEBUT LOGIN+REGISTER*/
+#login{
+  margin-left: 30px;
+}
+/*FIN LOGIN+REGISTER*/
+
+/*DEBUT MENU ABSOLUTE + FIXED*/
+
+/*FIN MENU ABSOLUTE + FIXED*/
 .principaltitrecine {
   display: flex;
   flex-direction: row;
@@ -151,6 +161,7 @@ button{
   display: flex;
   align-items: center;
 }
+
 .featuredmoviesbutton button {
   background-color: #FE4140;
   color: white;
@@ -507,12 +518,6 @@ h2 {
   border: 0;
   background: transparent; }
 
-.featuredmoviesbutton button {
-  background-color: #FE4140;
-  color: white;
-  border: none;
-  padding: 1%;
-  font-weight: bold; }
 
 .featuredseriesbutton button {
   background-color: #FE4140;
@@ -600,7 +605,12 @@ footer {
     font-size: 12px; }
 
 .pagination .page-item .page-link {
-  background-color: red;
+  background-color: #F2F0F1;
+  color: #4C5155;
+  border-radius: 0; }
+
+.pagination .page-item .page-link:hover {
+  background-color: #FE4240;
   color: white;
   border-radius: 0; }
 
