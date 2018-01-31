@@ -39,12 +39,30 @@ background-color: #FD4340;
 
 /*FIN DROP DOWN MENU*/
 
-/*CONTACT en CAROUSEL*/
+/*DEBUT CONTACT en CAROUSEL*/
 
-.contacttitrecine{
+.contacttitrecine a{
+  color: white;
   font-size:14px;
 }
 
+/*FIN CONTACT EN CAROUSEL*/
+
+/*DEBUT RECHERCHE EN CAROUSEL*/
+
+/*FIN RECHERCHE EN CAROUSEL*/
+
+/*DEBUT LATEST ONLINE MOVIES*/
+button{
+  border-radius: 0;
+  background-color: #FE4240;
+  color: white;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px;
+}
+/*FIN LATEST ONLINE MOVIES*/
 .principaltitrecine {
   display: flex;
   flex-direction: row;
@@ -120,9 +138,6 @@ background-color: #FD4340;
   background-color: black;
   color: white; }
 
-.stylish-input-group .input-group-addon {
-  background: white !important; }
-
 .stylish-input-group .form-control {
   border-right: 0;
   box-shadow: 0 0 0;
@@ -130,7 +145,7 @@ background-color: #FD4340;
 
 .stylish-input-group button {
   border: 0;
-  background: transparent; }
+  }
 
 .featuredseriesbutton {
   display: flex;
