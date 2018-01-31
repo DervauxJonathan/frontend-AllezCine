@@ -18,6 +18,8 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Roboto:700,900" rel="stylesheet">
 
+
+
 </head>
 
 <body>
@@ -31,15 +33,26 @@
         <div class="col-lg-4 col-md-4 col-sm-12 col-12 menutitrecine">
           HOME
           <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                GENRE
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GENRE
               </button>
             <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
               <a class="dropdown-item" href="#">Action</a>
               <a class="dropdown-item" href="#">Comedy</a>
               <a class="dropdown-item" href="#">Western</a>
               <a class="dropdown-item" href="#">Fiction</a>
+              <a class="dropdown-item" href="#">Policier</a>
             </div>
+          </div>
+          <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GENRE
+              </button>
+          </div>
+          <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  GENRE
+              </button>
           </div>
         </div>
         <!-- </div> -->
@@ -1484,7 +1497,7 @@
                                 <div class="carousel-inner" role="listbox">
                                   <div class="carousel-item active">
                                     <div class="card d-block w-100">
-                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <img class="card-img-top" id="django" src="assets/img/1st/4.jpg" alt="Card image cap">
                                       <div class="card-block">
                                         <h6 class="card-title">Django</h6>
                                       </div>
@@ -1748,29 +1761,26 @@
                           </div>
                     </div>
             <!-- place pour un trailer- short movie -->
-                          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                            <div class="card" style="width: 18rem;">
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/eUdM9vrCbow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                              <div class="card-body" style="background-color:black; width:560px; height:250px">
-                                <div style="background-color: black; color:#B2322F;"> </div>
-                                 <div>
-                                      <div>
+                          <div class="card" style="width: 18rem;">
+                             <!-- <iframe id="myVideo" width="520" height="315" src="https://www.youtube.com/embed/eUdM9vrCbow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> -->
+                             <div id="player"></div>
 
-                                      </div>
-                                      <div>
-                                        Story line:
-                                        Director:
-                                        Price:
-                                      </div>
-                                      <div>With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner. <br />
-                                      Quentin Tarantino <br />
-                                      15 Euro
-                                     </div>
+                             <div class="card-body" style="background-color:black; width:520px; height:280px; font-size:14px; padding-left: 20px;">
+                               <h5 style="color:#C03231; padding-bottom: 50px; padding-top:15px;" >DJANGO</h5>
 
-                                  </div>
-                              </div>
+                             <div style="display:flex; flex-direction:row;">
+                               <div style="color:#BE3230;"> Story line  </div>
+                               <div style="margin-left:9px;">:With the help of his mentor, a slave-turned-bounty hunter sets <br /> out to rescue his wife from a brutal Mississippi plantation owner.</div>
+                             </div>
+                             <div style="display:flex; flex-direction:row;">
+                               <div style="color:#BE3230;"> Director  </div>
+                               <div style="margin-left:18px;">:Quentin Tarantino</div>
+                             </div>
+                             <div style="display:flex; flex-direction:row;">
+                               <div style="color:#BE3230;"> Price  </div>
+                               <div style="margin-left:34px;">:15 Euro</div>
+                             </div>
                            </div>
-
                           </div>
                       </div>
 
@@ -2061,6 +2071,52 @@ Conditions générales d'utilisation
       // $(".topmoviescaroussel").hasClass("policiers");
       $(".policiers").addClass("invisible");
     });
+
+
+// MOVIE SHOP
+        // 2. This code loads the IFrame Player API code asynchronously.
+        var tag = document.createElement('script');
+
+        tag.src = "https://www.youtube.com/iframe_api";
+        var firstScriptTag = document.getElementsByTagName('script')[0];
+        firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+        // 3. This function creates an <iframe> (and YouTube player)
+        //    after the API code downloads.
+        var player;
+
+        function onYouTubeIframeAPIReady() {
+          player = new YT.Player('player', {
+            height: '360',
+            width: '520',
+            videoId: 'mHzQis2fO0U',
+            events: {
+                'onClick': onPlayerReady,
+                'onStateChange': onPlayerStateChange
+            }
+          });
+        }
+
+        // 4. The API will call this function when the video player is ready.
+        function onPlayerReady(event) {
+          event.target.playVideo();
+        }
+
+        // 5. The API calls this function when the player's state changes.
+        //    The function indicates that when playing a video (state=1),
+        //    the player should play for six seconds and then stop.
+          var done = false;
+          function onPlayerStateChange(event) {
+            if (event.data == YT.PlayerState.PLAYING && !done) {
+              setTimeout(stopVideo, 6000);
+              done = true;
+            }
+          }
+        // function stopVideo() {
+        //   player.stopVideo();
+        // }
+
+
   </script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>

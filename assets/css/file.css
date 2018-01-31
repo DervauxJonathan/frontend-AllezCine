@@ -6,6 +6,45 @@ h2 {
   border-left: 5px solid #FE423E;
   padding: 10px; }
 
+  /*DEBUT DROP DOWN MENU*/
+.dropdown{
+  margin-left: 3%;
+}
+
+.btn {
+  border-radius: 0;
+    font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #FD4340;
+}
+
+.btn:focus{
+  background-color: #FD4340;
+}
+
+.dropdown-menu{
+    margin:0;
+}
+
+.dropdown-item {
+  font-size: 12px;
+}
+
+.dropdown-item:hover {
+background-color: #FD4340;
+  font-size: 16px;
+}
+
+/*FIN DROP DOWN MENU*/
+
+/*CONTACT en CAROUSEL*/
+
+.contacttitrecine{
+  font-size:14px;
+}
+
 .principaltitrecine {
   display: flex;
   flex-direction: row;
