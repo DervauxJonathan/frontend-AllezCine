@@ -611,6 +611,12 @@ footer {
 
 .pagination .page-item .page-link:hover {
   background-color: #FE4240;
+  font-size:18px;
+  color: white;
+  border-radius: 0; }
+
+.pagination .page-item .page-link:active {
+  background-color: #FE4240;
   color: white;
   border-radius: 0; }
 
@@ -628,6 +634,10 @@ flex-direction: row;
   flex-direction: column;
   justify-content:space-around;
   margin-top: -20px;
+}
+
+.fa{
+  
 }
 
 
