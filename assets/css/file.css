@@ -1,3 +1,313 @@
+.container-fluid {
+  padding: 0px;
+  background-color: black; }
+
+h2 {
+  border-left: 5px solid #FE423E;
+  padding: 10px; }
+
+  /*DEBUT DROP DOWN MENU*/
+.dropdown{
+  margin-left: 3%;
+}
+
+.btn {
+  border-radius: 0;
+    font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #FD4340;
+}
+
+.btn:focus{
+  background-color: #FD4340;
+}
+
+.dropdown-menu{
+    margin:0;
+}
+
+.dropdown-item {
+  font-size: 12px;
+}
+
+.dropdown-item:hover {
+background-color: #FD4340;
+  font-size: 16px;
+}
+
+/*FIN DROP DOWN MENU*/
+
+/*DEBUT CONTACT en CAROUSEL*/
+
+.contacttitrecine a{
+  color: white;
+  font-size:14px;
+}
+
+/*FIN CONTACT EN CAROUSEL*/
+
+/*DEBUT RECHERCHE EN CAROUSEL*/
+
+/*FIN RECHERCHE EN CAROUSEL*/
+
+/*DEBUT LATEST ONLINE MOVIES*/
+button{
+  border-radius: 0;
+  background-color: #FE4240;
+  color: white;
+  font-size: 13px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 0px;
+}
+/*FIN LATEST ONLINE MOVIES*/
+
+/*DEBUT LOGIN+REGISTER*/
+#login{
+  margin-left: 30px;
+}
+/*FIN LOGIN+REGISTER*/
+
+/*DEBUT MENU ABSOLUTE + FIXED*/
+
+/*FIN MENU ABSOLUTE + FIXED*/
+.principaltitrecine {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  font-size: 40px;
+  font-weight: bold;
+  color: white; }
+
+.red {
+  color: #FE4240; }
+
+.onlinemovies {
+  color: blue; }
+  .onlinemovies button {
+    border-radius: none; }
+
+#carouselimg {
+  position: relative;
+  opacity: 0.7;
+  z-index: 1; }
+
+.carousel-indicators {
+  margin-top: -50px; }
+
+.carousel-item img {
+  width: 100% !important;
+  height: auto !important;
+  /*margin: 6px; */
+}
+
+.menutitrecine {
+  display: flex;
+  flex-direction: row; }
+
+#carousel1 img {
+  width: 100%;
+  height: auto; }
+
+.logintitrecine {
+  padding-left: 30px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-color: #FE4240;
+  color: white; }
+  .logintitrecine button {
+    background-color: black;
+    color: white;
+    border: none; }
+
+#allezcine {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  margin-left: 0;
+  margin-right: 0;
+  z-index: 2; }
+
+.fa {
+  color: white; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
+
+.imagescarousel {
+  padding-left: 0 !important;
+  padding-right: 0 !important; }
+
+.boutonNoir {
+  background-color: black;
+  color: white; }
+
+.stylish-input-group .form-control {
+  border-right: 0;
+  box-shadow: 0 0 0;
+  border-color: #ccc; }
+
+.stylish-input-group button {
+  border: 0;
+  }
+
+.featuredseriesbutton {
+  display: flex;
+  align-items: center;
+}
+
+.featuredmoviesbutton button {
+  background-color: #FE4140;
+  color: white;
+  border: none;
+  padding: 1%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px}
+
+.featuredseriesbutton button {
+  background-color: #FE4140;
+  color: white;
+  border: none;
+  padding: 1%;
+  font-weight: bold;
+  align-items: center;
+  margin-top: 15px;
+  margin-bottom: 30px
+   }
+
+
+.shopmovies {
+  position: relative;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap; }
+
+#fontawesome li {
+  list-style: none;
+  display: inline;
+  margin: 1px;
+  padding: 2px;
+  background-color: black; }
+
+input {
+  border: 1px solid #BBB7B3;
+  border-radius: 0;
+  margin: 3px; }
+
+#submit {
+  background-color: #FF423E;
+  color: white; }
+
+  footer {
+  background-color: black;
+  color: white; }
+
+  .foot {
+  font-size: 11px; }
+  .foot a {
+  font-weight: bold;
+  color: white;
+  margin: 2px;
+  padding: 2px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  background-color: #65645C; }
+  .foot h5 {
+  border-bottom: 1px solid #4d4d00;
+  padding-bottom: 15px; }
+
+  .latestmovies {
+  margin: 4px; }
+
+  .commentaires {
+    font-size: 10px;
+  }
+
+  .cache {
+  margin-top: 10px;
+  border-top: 1px solid #4d4d00;
+  border-bottom: 1px solid #4d4d00; }
+  .cache p {
+  opacity: 0; }
+
+  .reseausociaux h3{
+text-align: center;
+margin-left: 40px;
+  }
+
+
+
+  #footerawesome li:nth-child(1) {
+  border: 1px solid #4C5155;
+  padding:3px;
+  padding-left: 8px;
+  padding-right: 3px;
+  margin: 2px; }
+
+  #footerawesome li:nth-child(2) {
+  padding:3px;
+  border: 1px solid #4C5155;
+  margin: 2px; }
+
+  #footerawesome li:nth-child(3) {
+  padding:3px;
+  border: 1px solid #4C5155;
+  margin: 2px; }
+
+  #footerawesome li:nth-child(4) {
+  padding:3px;
+  border: 1px solid #4C5155;
+  margin: 2px; }
+
+  #footerawesome li:nth-child(5) {
+  padding:3px;
+  border: 1px solid #4C5155;
+  margin: 2px; }
+
+
+
+
+
+    .visible {
+      display: block
+    }
+    .invisible {
+      display: none !important;
+    }
+
+    #flexfilm {
+      display: flex;
+      justify-content: center;
+    }
+    #flexseries {
+      display: flex;
+      justify-content: center;
+    }
+
+    #footerawesome li{
+      list-style: none;
+      display:inline;
+    }
+
+    #footerawesome {
+      text-align: center;
+    }
+
+
+/*# sourceMappingURL=file.css.map */
+
+/* TO  BE DELETED*/
+
 .principaltitrecine {
   font-family: 'Roboto', sans-serif;
   font-weight: bold; }
@@ -208,12 +518,6 @@ h2 {
   border: 0;
   background: transparent; }
 
-.featuredmoviesbutton button {
-  background-color: #FE4140;
-  color: white;
-  border: none;
-  padding: 1%;
-  font-weight: bold; }
 
 .featuredseriesbutton button {
   background-color: #FE4140;
@@ -262,19 +566,12 @@ footer {
     border-bottom: 1px solid #4d4d00;
     padding-bottom: 15px; }
 
-.latestmovies {
-  margin: 4px; }
-
 .cache {
   margin-top: 10px;
   border-top: 1px solid #4d4d00;
   border-bottom: 1px solid #4d4d00; }
   .cache p {
     opacity: 0; }
-
-.reseausociaux .fa {
-  border: 2px solid #4C5155;
-  margin: 2px; }
 
 #films {
   margin-top: 4%; }
@@ -292,7 +589,8 @@ footer {
   padding: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: space-between; }
+  justify-content: space-between;
+      }
 
 .card-block {
   padding: 0px;
@@ -307,8 +605,42 @@ footer {
     font-size: 12px; }
 
 .pagination .page-item .page-link {
-  background-color: red;
+  background-color: #F2F0F1;
+  color: #4C5155;
+  border-radius: 0; }
+
+.pagination .page-item .page-link:hover {
+  background-color: #FE4240;
+  font-size:18px;
   color: white;
   border-radius: 0; }
+
+.pagination .page-item .page-link:active {
+  background-color: #FE4240;
+  color: white;
+  border-radius: 0; }
+
+.latestmovies {
+  margin:2;
+}
+
+.latestmoviescontainer {
+display:flex;
+flex-direction: row;
+}
+
+.commentaires {
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+  margin-top: -20px;
+}
+
+#scrollIcon .fa{
+  border:3px solid #FF423E;
+  padding: 20%;
+  border-radius: 50%;
+}
+
 
 /*# sourceMappingURL=file.css.map */
