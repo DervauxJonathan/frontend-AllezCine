@@ -935,26 +935,26 @@
         <!-- <h2> place pour titre featuredseries</h2> -->
         <h2> FEATURED SERIES TV </h2>
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredseriespagination" style="padding-left: 50px;padding-top: 3px;padding-bottom: 0px;">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredmoviespagination" style="padding-left: 50px;">
             <!-- place pour une pagination -->
             <ul class="pagination">
-              <li class="page-item"><a class="page-link" href="#">All</a></li>
-              <li class="page-item"><a class="page-link" href="#">Actions</a></li>
-              <li class="page-item"><a class="page-link" href="#">Policier</a></li>
+              <li class="page-item" id="serieAll"><a class="page-link" href="#">All</a></li>
+              <li class="page-item" id="serieAction"><a class="page-link" href="#">Actions</a></li>
+              <li class="page-item" id="seriePolicier"><a class="page-link" href="#">Policier</a></li>
             </ul>
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredseriescaroussel">
-            <!-- place pour caroussel -->
+          <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredmoviescaroussel">
+            <!-- place pour caroussel AFFICHE MOVIES -->
+
             <div class="container">
               <!-- row 1  -->
               <div class="row">
-                <!-- debut caroussel1 -->
+                <!-- debut caroussel1 AFFICHE MOVIES -->
                 <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
                   <div class="row bordures2">
-
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel action">
                       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -966,7 +966,7 @@
                               </div>
                               <div class="card-footer">
                                 <div> 2016 </div>
-                                <div> Genre </div>
+                                <div> Action </div>
                               </div>
                             </div>
                           </div>
@@ -976,7 +976,7 @@
                     <!-- fin carousel 1-->
 
                     <!-- debut caroussel2 -->
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel policiers">
                       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -987,7 +987,7 @@
                               </div>
                               <div class="card-footer">
                                 <div> 2016 </div>
-                                <div> Genre </div>
+                                <div> policier </div>
                               </div>
                             </div>
                           </div>
@@ -1077,19 +1077,8 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
 
-              <!-- fin carousel 1-->
-
-              <!-- debut carousel 2 -->
-              <div class="row">
-                <!-- debut caroussel1 -->
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
-                  <div class="row bordures2">
-
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel policiers">
                       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -1101,7 +1090,7 @@
                               </div>
                               <div class="card-footer">
                                 <div> 2016 </div>
-                                <div> Genre </div>
+                                <div> policier </div>
                               </div>
                             </div>
                           </div>
@@ -1111,7 +1100,7 @@
                     <!-- fin carousel 1-->
 
                     <!-- debut caroussel2 -->
-                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel action">
                       <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
                         <div class="carousel-inner">
                           <div class="carousel-item active">
@@ -1122,7 +1111,7 @@
                               </div>
                               <div class="card-footer">
                                 <div> 2016 </div>
-                                <div> Genre </div>
+                                <div> action </div>
                               </div>
                             </div>
                           </div>
@@ -1212,270 +1201,251 @@
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="seriebouton invisible">
-                <div class="container">
-                  <!-- row 1  -->
-                  <div class="row">
-                    <!-- debut caroussel1 -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
-                      <div class="row bordures2">
+                    <!-- fin caroule 6 -->
+                    <!-- debut carousel 1 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
 
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/1.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title">Pirate Caraibs</h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/1.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title">Pirate Caraibs</h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <!-- fin carousel 1-->
-
-                        <!-- debut caroussel2 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title">Django</h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- fin carousel 2 -->
-
-                        <!-- debut caroussel3 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/7.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Hotel Rwanda </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- fin carousel 3 -->
-
-                        <!-- debut caroussel4 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/10.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Die Hard 4 </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- fin carousel 4 -->
-
-                        <!-- debut caroussel5 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Sully </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <!-- fin carousel 5 -->
-                        <!--  debut carousel 6-->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Sully </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
+                      </div>
                     </div>
-                  </div>
+                    <!-- fin carousel 1-->
 
-                  <!-- fin carousel 1-->
-
-                  <!-- debut carousel 2 -->
-                  <div class="row">
-                    <!-- debut caroussel1 -->
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-12 topmoviescaroussel">
-                      <div class="row bordures2">
-
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/1.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title">Pirate Caraibs</h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                    <!-- debut caroussel2 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title">Django</h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <!-- fin carousel 1-->
+                      </div>
+                    </div>
+                    <!-- fin carousel 2 -->
 
-                        <!-- debut caroussel2 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title">Django</h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                    <!-- debut caroussel3 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/7.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Hotel Rwanda </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <!-- fin carousel 2 -->
+                      </div>
+                    </div>
+                    <!-- fin carousel 3 -->
 
-                        <!-- debut caroussel3 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/7.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Hotel Rwanda </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                    <!-- debut caroussel4 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/10.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Die Hard 4 </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <!-- fin carousel 3 -->
+                      </div>
+                    </div>
+                    <!-- fin carousel 4 -->
 
-                        <!-- debut caroussel4 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/10.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Die Hard 4 </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                    <!-- debut caroussel5 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Sully </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <!-- fin carousel 4 -->
-
-                        <!-- debut caroussel5 -->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Sully </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                      </div>
+                    </div>
+                    <!-- fin carousel 5 -->
+                    <!--  debut carousel 6-->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Sully </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
                         </div>
-                        <!-- fin carousel 5 -->
-                        <!--  debut carousel 6-->
-                        <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel">
-                          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
-                            <div class="carousel-inner">
-                              <div class="carousel-item active">
-                                <div class="card d-block w-100">
-                                  <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
-                                  <div class="card-block">
-                                    <h6 class="card-title"> Sully </h6>
-                                  </div>
-                                  <div class="card-footer">
-                                    <div> 2016 </div>
-                                    <div> Genre </div>
-                                  </div>
-                                </div>
+                      </div>
+                    </div>
+
+                <!-- debut caroussel1 -->
+
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/1.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title">Pirate Caraibs</h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- fin carousel 1-->
+
+                    <!-- debut caroussel2 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title">Django</h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- fin carousel 2 -->
+
+                    <!-- debut caroussel3 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/7.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Hotel Rwanda </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- fin carousel 3 -->
+
+                    <!-- debut caroussel4 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/10.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Die Hard 4 </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- fin carousel 4 -->
+
+                    <!-- debut caroussel5 -->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Sully </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- fin carousel 5 -->
+                    <!--  debut carousel 6-->
+                    <div class="col-lg-2 col-md-2 col-sm-12 col-12 topmoviescaroussel serie invisible">
+                      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <div class="card d-block w-100">
+                              <img class="card-img-top" src="assets/img/1st/13.jpg" alt="Card image cap">
+                              <div class="card-block">
+                                <h6 class="card-title"> Sully </h6>
+                              </div>
+                              <div class="card-footer">
+                                <div> 2016 </div>
+                                <div> Genre </div>
                               </div>
                             </div>
                           </div>
@@ -1483,333 +1453,326 @@
                       </div>
                     </div>
                   </div>
+                  <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredmoviesbutton" id="flexfilm">
+                    <!-- place pour bouton plus/moins de films-->
+                    <button id="series" value="PLUS DE SERIES" style="padding-top: 7px;padding-bottom: 7px;">PLUS DE SERIES</button>
+                  </div>
                 </div>
-                <!-- fin carousel2 -->
-
-                <!--  fin carousel-->
               </div>
             </div>
-            <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredseriesbutton" id="flexseries">
-              <!-- place pour bouton plus/moins de series-->
-              <button id="series" value="PLUS DE SERIES" style="padding-top: 7px;padding-bottom: 7px;"> PLUS DE SERIES</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-        <div class="container">
-          <div class="shopmovies">
-            <h2 style="margin-left: -50px;"> SHOP MOVIES </h2>
-            <!-- navigation direction menu use font awesome -->
-            <ul id="fontawesome">
-              <li> <a href="#carouselExampleControls" role="button" data-slide="prev">
-                    <i class="fa fa-chevron-left" aria-hidden="true"></i>
-                  </a>
-              </li>
-              <li> <a href="#carouselExampleControls" role="button" data-slide="next">
-                    <i class="fa fa-chevron-right" aria-hidden="true"></i>
-                  </a>
-              </li>
-            </ul>
-          </div>
-          <div class="row" style="padding-left: 0px;margin-left: -125px;">
-            <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
-              <!-- shop movies caroussel -->
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div id="carouselExampleControls" class="carousel slide">
-                    <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
+            <div class="container">
+                      <div class="shopmovies">
+                        <h2 style="margin-left: -50px;"> SHOP MOVIES </h2>
+                        <!-- navigation direction menu use font awesome -->
+                        <ul id="fontawesome">
+                          <li> <a href="#carouselExampleControls" role="button" data-slide="prev">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+                              </a>
+                          </li>
+                          <li> <a href="#carouselExampleControls" role="button" data-slide="next">
+                                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+                              </a>
+                          </li>
+                        </ul>
                       </div>
-                      <div class="carousel-item">
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
+                      <div class="row" style="padding-left: 0px;margin-left: -125px;">
+                        <div class="col-lg-8 col-md-8 col-sm-12 col-12 ">
+                          <!-- shop movies caroussel -->
+                          <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                              <div id="carouselExampleControls" class="carousel slide">
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="carousel-item active">
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
+                          <div class="row">
+                            <div class="col-lg-12 col-md-12 col-sm-12 col-12">
+                              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                                <div class="carousel-inner" role="listbox">
+                                  <div class="carousel-item active">
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="carousel-item">
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                    <div class="card d-block w-100">
+                                      <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
+                                      <div class="card-block">
+                                        <h6 class="card-title">Django</h6>
+                                      </div>
+                                      <div class="card-footer">
+                                        <div> 2016 </div>
+                                        <div> Genre </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-12">
-                  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner" role="listbox">
-                      <div class="carousel-item active">
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="carousel-item">
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                        <div class="card d-block w-100">
-                          <img class="card-img-top" src="assets/img/1st/4.jpg" alt="Card image cap">
-                          <div class="card-block">
-                            <h6 class="card-title">Django</h6>
-                          </div>
-                          <div class="card-footer">
-                            <div> 2016 </div>
-                            <div> Genre </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-        </div>
-<!-- place pour un trailer- short movie -->
-              <div class="col-lg-4 col-md-4 col-sm-12 col-12">
-                <div class="card" style="width: 18rem;">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/eUdM9vrCbow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-                  <div class="card-body" style="background-color:black; width:560px; height:250px">
-                    <div style="background-color: black; color:#B2322F;"> </div>
-                     <div>
-                          <div>
+            <!-- place pour un trailer- short movie -->
+                          <div class="col-lg-4 col-md-4 col-sm-12 col-12">
+                            <div class="card" style="width: 18rem;">
+                              <iframe width="560" height="315" src="https://www.youtube.com/embed/eUdM9vrCbow" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                              <div class="card-body" style="background-color:black; width:560px; height:250px">
+                                <div style="background-color: black; color:#B2322F;"> </div>
+                                 <div>
+                                      <div>
+
+                                      </div>
+                                      <div>
+                                        Story line:
+                                        Director:
+                                        Price:
+                                      </div>
+                                      <div>With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner. <br />
+                                      Quentin Tarantino <br />
+                                      15 Euro
+                                     </div>
+
+                                  </div>
+                              </div>
+                           </div>
 
                           </div>
-                          <div>
-                            Story line:
-                            Director:
-                            Price:
-                          </div>
-                          <div>With the help of his mentor, a slave-turned-bounty hunter sets out to rescue his wife from a brutal Mississippi plantation owner. <br />
-                          Quentin Tarantino <br />
-                          15 Euro
-                         </div>
-
                       </div>
-                  </div>
-               </div>
-
-              </div>
-          </div>
 
 
           <h2 style="margin-top: 60px; font-size:23px;"> CONTACT US </h2>
@@ -2038,28 +2001,28 @@ Conditions générales d'utilisation
         $(".film").addClass("visible");
         $(".film").removeClass("invisible")
         $("#films").html("Moins de films");
-        $('html, body').animate({
-          scrollTop: $("#filmss").offset().top
-        }, 200);
       } else {
         $(".film").addClass("invisible");
         $(".filmbouton").removeClass("visible");
         $("#films").html("Plus de films");
+        $('html, body').animate({
+          scrollTop: $("#filmss").offset().top
+        }, 200);
       };
     });
 
     $("#series").click(function() {
-      if ($(".seriebouton").hasClass("visible")) {
-        $(".seriebouton").addClass("invisible");
-        $(".seriebouton").removeClass("visible");
-        $("#series").html("Plus de series");
+      if ($(".serie").hasClass("invisible")) {
+        $(".serie").addClass("visible");
+        $(".serie").removeClass("invisible");
+        $("#series").html("MOINS DE SERIES");
+      } else {
+        $(".serie").addClass("invisible");
+        $(".serie").removeClass("visible");
+        $("#series").html("PLUS DE SERIES");
         $('html, body').animate({
           scrollTop: $("#seriess").offset().top
         }, 200);
-      } else {
-        $(".seriebouton").addClass("visible");
-        $(".seriebouton").removeClass("invisible");
-        $("#series").html("Moins de series");
       };
     });
 
