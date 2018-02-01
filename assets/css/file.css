@@ -240,6 +240,9 @@ input {
   .cache p {
   opacity: 0; }
 
+
+  /*DEBUT BOTTOM'S MENU*/
+
   .reseausociaux h3{
 text-align: center;
 margin-left: 40px;
@@ -254,26 +257,46 @@ margin-left: 40px;
   padding-right: 3px;
   margin: 2px; }
 
+  #footerawesome li:nth-child(1) .fa:hover {
+  color:#4267B2;
+ }
+
+
   #footerawesome li:nth-child(2) {
   padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
+
+  #footerawesome li:nth-child(2) .fa:hover {
+  color:#1DA1F2;
+ }
 
   #footerawesome li:nth-child(3) {
   padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
 
+  #footerawesome li:nth-child(3) .fa:hover {
+  color:#0077B5;
+ }
+
   #footerawesome li:nth-child(4) {
   padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
+
+  #footerawesome li:nth-child(4) .fa:hover {
+  color:#FF0000;
+ }
 
   #footerawesome li:nth-child(5) {
   padding:3px;
   border: 1px solid #4C5155;
   margin: 2px; }
 
+  #footerawesome li:nth-child(5) .fa:hover {
+  color:#DC4A38;
+ }
 
 
 
@@ -303,7 +326,7 @@ margin-left: 40px;
       text-align: center;
     }
 
-
+/*FIN BOTTOM'S MENU*/
 /*# sourceMappingURL=file.css.map */
 
 /* TO  BE DELETED*/
@@ -637,9 +660,15 @@ flex-direction: row;
 }
 
 #scrollIcon .fa{
+  position: fixed;
+  z-index: 999;
   border:3px solid #FF423E;
-  padding: 20%;
+  padding: 1%;
   border-radius: 50%;
+  bottom:30px;
+  right:30px;
+  outline: none;
+  color:#65645C;
 }
 
 

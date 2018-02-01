@@ -23,6 +23,7 @@
 </head>
 
 <body>
+  <a href="#" id="scrollIcon"> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i> </a>
   <header>
     <div class="container-fluid">
       <!-- <div class="carousel-caption d-none d-md-block"> -->
@@ -1931,9 +1932,7 @@
             <li> <i class="fa fa-google-plus" aria-hidden="true"></i> </li>
           </ul>
         </div>
-        <div id="scrollIcon"> <a href="backtotop"> <i class="fa fa-arrow-up fa-2x" aria-hidden="true"></i>
 
- </a></div>
       </div>
 
     </div>
@@ -2079,6 +2078,32 @@ Conditions générales d'utilisation
 // SCROLL ICON
 
 
+// function toTop(e){
+//   document.body.scrollTop=0;
+//   documentElement.scrollTop=0;
+// }
+
+$(window).scroll(function() {
+    var height = $(window).scrollTop();
+    if (height > 100) {
+        $('#scrollIcon').fadeIn();
+    } else {
+        $('#scrollIcon').fadeOut();
+    }
+});
+$(document).ready(function() {
+    $("#scrollIcon").click(function(event) {
+        event.preventDefault();
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+        return false;
+    });
+
+});
+ /*Scroll to top when arrow up clicked END*/
+
+
+// fin scroll icon
+
 
 
 // MOVIE SHOP
@@ -2123,6 +2148,7 @@ Conditions générales d'utilisation
         // function stopVideo() {
         //   player.stopVideo();
         // }
+
 
 
   </script>
