@@ -28,12 +28,78 @@
     <div class="container-fluid">
       <!-- <div class="carousel-caption d-none d-md-block"> -->
       <div class="row" id="allezcine">
-        <div class="col-lg-3 col-md-3 col-sm-12 col-12 principaltitrecine">
-          <span class="red"> ALLEZ </span> CINE!
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-12 col-12 menutitrecine">
-          HOME
+        <div class="col-lg-12 col-md-12 col-sm-12 col-12 principaltitrecine">
+
+
+          <nav class="navbar navbar-toggleable-md navbar-light">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></i></span>
+          </button>
+            <a class="navbar-brand" style="font-size:220%; color: white;"  href="#"><span class="red"> ALLEZ </span> CINE!</a>
+            <div class="collapse navbar-collapse" id="navbarText">
+
+              <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+                <li class="nav-item"> <a href="#" style="margin-left:50px; color:#FE4240; font-size:90%;">
+                        HOME
+                                     </a>
+               </li>
+                <li class="nav-item active" style="margin-left:20px;">
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          GENRE
+                      </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Action</a>
+                      <a class="dropdown-item" href="#">Comedy</a>
+                      <a class="dropdown-item" href="#">Western</a>
+                      <a class="dropdown-item" href="#">Fiction</a>
+                      <a class="dropdown-item" href="#">Policier</a>
+                    </div>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button"  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          BUY
+                      </button>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <div class="dropdown">
+                      <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          TIME-TABLE
+                      </button>
+                  </div>
+                </li>
+
+                <li >
+                    <a href="#" style="color: white; margin-left: 80px; font-size: 80%;" > CONTACT </a>
+                </li>
+
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <div class="input-group" style="background:rgba(0,0,0,0.5); border-top-right-radius:20px; border-bottom-right-radius:20px; border-top-left-radius:20px; border-bottom-left-radius:20px; :padding-left:12px; padding-right:12px;">
+                  <input type="text" class="form-control" placeholder="Recherche" style="background:rgba(0,0,0,0.0); border:none; color: white; font-size:11px;">
+                  <button type="submit" style="background:rgba(0,0,0,0.0); ">
+                       <i class="fa fa-search" aria-hidden="true" ></i>
+                    </button>
+                </div>
+              </form>
+            </div>
+          </nav>
+
+
+
+
+
+
+          <!-- <span class="red"> ALLEZ </span> CINE!
+
+
+
           <div class="dropdown">
+            HOME
               <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                   GENRE
               </button>
@@ -55,25 +121,24 @@
                   TIME-TABLE
               </button>
           </div>
-        </div>
-        <!-- </div> -->
-        <div class="col-lg-2 col-md-2 col-sm-12 col-12 contacttitrecine">
+
+
           <a href="#">CONTACT </a>
-        </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 col-12 recherchetitrecine">
-          <div id="imaginary_container">
-            <div class="input-group stylish-input-group">
-              <input type="text" class="form-control" placeholder="Recherche">
-              <!-- <span class="input-group-addon"> -->
-              <button type="submit">
-                   <i class="fa fa-search" aria-hidden="true"></i>
+
+
+
+            <div class="input-group" style="background:rgba(0,0,0,0.5); border-top-right-radius:20px; border-bottom-right-radius:20px; border-top-left-radius:20px; border-bottom-left-radius:20px; :padding-left:12px; padding-right:12px;">
+              <input type="text" class="form-control" placeholder="Recherche" style="background:rgba(0,0,0,0.0); border:none; color: white; font-size:11px;">
+              <button type="submit" style="background:rgba(0,0,0,0.0); ">
+                   <i class="fa fa-search" aria-hidden="true" ></i>
                 </button>
-              <!-- </span> -->
-            </div>
-          </div>
+            </div> -->
+
         </div>
       </div>
-      <!-- </div> -->
+
+
+
       <div class="row" id="carouselimg">
         <div class="col-lg-12 col-md-12 col-sm-12 col-12 imagescarousel">
           <div id="carousel1" class="carousel slide" data-ride="carousel">
@@ -947,7 +1012,7 @@
    </div>
       <div class="container" id="seriess">
         <!-- <h2> place pour titre featuredseries</h2> -->
-        <h2> FEATURED SERIES TV </h2>
+        <h2  style="margin-top:25px; font-size:25px;"> FEATURED SERIES TV </h2>
         <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-12 featuredmoviespagination" style="padding-left: 50px;">
             <!-- place pour une pagination -->
@@ -1468,7 +1533,7 @@
 
             <div class="container">
               <div class="shopmovies">
-                  <h2 style="margin-left: -50px;"> SHOP MOVIES </h2>
+                  <h2  style="margin-top:25px; font-size:25px;"> SHOP MOVIES </h2>
 <!-- navigation direction menu use font awesome -->
                       <ul id="fontawesome">
                    <li> <a href="#carouselExampleControls" role="button" data-slide="prev">
@@ -1836,7 +1901,7 @@
           <!-- MOVIES -->
           <h5> MOVIES </h5> ADVENTURE <br /> COMEDY <br /> FANTASY <br /> ACTION <br /> MOVIES <br /> HORROR
         </div>
-        <div class="col-lg-3 col-md-4 col-sm-12 col-12">
+        <div class="col-lg-3 col-md-4 col-sm-12 col-12 reviewmovies">
           <!-- REVIEW MOVIES -->
           <h5>REVIEW MOVIES </h5>
           <a href="comedy"> Comedy </a>
